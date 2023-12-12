@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <!-- 
+        Style notes: backgorund color for whole thing in body
+        background color for one cetrian box = makes it a box 
+        change font color = only put color
+        float: moves the box to the left or right, strips off the defalt behavior 
+    -->
+   <style>
+    body{
+        background-color: rgb(250, 124, 187);
+        font-size: 25px;
+    }
+    .header{
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px;
+        font-size: 50px;
+        background-color: black;
+        border-style: solid;
+        border-color: black;
+    }
+    .navlinks{
+        font-size: 12px;
+        color: black;
+    }
+    .navlinks2{
+        font-size: 12px;
+        color: black;
+        float: left;
+    }
+    .mainbody{
+        padding: 10px;
+        float: left;
+    }
+    .pictures img {
+        width: 400px; 
+        height: auto; 
+  }
+    .links {
+        font-size: 15px;
+    }
+    .tableauPlaceholder {
+        width="560" height="315" 
+}
+
+    </style>
+</head>
+<!--
+class = allows you to assign the style to one certain thing
+-->
+<body>
+    <!--HEADER-->
+    <div class ="header">
+        Lenna: About Me
+        </div>
+    <!--OVERALL BODY OF PAGE-->
+    
+     <!--beginning of the list-->
+        <ol>
+          <li>I am super competitive, expecially when it comes too skiing and board games! </li>
+
+    <!--Nested unordered list -->  
+          <li>I love my family!
+            <ul>
+              <li>I have two sisters, Emma and Kaela! Kaela is 17 years old, Emma is 23 years old!</li>
+              <a class="pictures" href="#!"><img src="assets/img/0.jpg" alt="..." /></a>
+              <li>I have one older brother, Ethan! He is 25 years old!</li>
+            </ul>
+          </li>
+
+      <!--in the list: Youtube link, embedded video-->    
+      <li>My Favorite Song <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vOZlJyc6Hlc" frameborder="0" allowfullscreen></iframe>
+
+      </li>
+      
+      <!--in the list: clink on the words to see some of my favorite things --> 
+        <li>A few of my favorite items! Click on each of them so you can see the direct link to where to purchase them!
+            <ul>
+
+                <li>First Item: Shoes</li>
+                <div id="ugg-shoes-content">
+                      <a class="links" href="https://egoshoes.com/sai129-tazmin-aztec-detail-faux-fur-lining-platform-slipper-in-sand-faux-suede.html?gad_source=1&gclid=CjwKCAiAmsurBhBvEiwA6e-WPHb3YCHZ9qNSXyIaBdQ5E6EGn210TFh8Nsctu6lGZJcw5Tg5R4fozBoC2bcQAvD_BwE" target="_blank">Ugg Slippers!</a>
+                  </div>
+                
+                  <li>Second Item: Makeup</li>
+                  <div id="Makeup-content">
+                        <a class="links" href="https://www.sephora.com/product/shineon-lip-jelly-P448854?skuId=2328094" target="_blank">Tower 28 Lip Gloss!</a>
+                    </div>
+
+                <li>Third Item: Waterbottle</li>
+                <div id="Waterbottle-content">
+                    <a class="links" href="https://www.stanley1913.com/products/mistletoe-twist-x-the-quencher-h2-0-flowstate-tumbler-40-oz" target="_blank">Standley Cup!</a>
+                </div>
+
+            </ul>
+         </li>
+
+      <!--in the list: Tableau Graph -->
+            <li>My Tableau Graph</li>
+            <div class='tableauPlaceholder' id='viz1702085687976' style='position: relative'><noscript><a href='#'><img alt='Final Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;da&#47;dataplusmovies-STARWARSvsSTARTREK-DataPlusMovies&#47;FinalDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dataplusmovies-STARWARSvsSTARTREK-DataPlusMovies&#47;FinalDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;da&#47;dataplusmovies-STARWARSvsSTARTREK-DataPlusMovies&#47;FinalDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1702085687976');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='3930px';vizElement.style.height='947px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        </ol>
+        
+        </body>
+        </html>
+        
+    </div>
+</body>
+</html>
+
+
+
+

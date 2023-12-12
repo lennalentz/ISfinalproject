@@ -1,0 +1,38 @@
+<style>
+    body{
+        background-color: rgb(250, 124, 187);
+        font-size: 25px;
+    }
+    .header{
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px;
+        font-size: 50px;
+        background-color: black;
+        border-style: solid;
+        border-color: black;
+    }
+    .navlinks{
+        font-size: 12px;
+        color: black;
+    }
+    .navlinks2{
+        font-size: 12px;
+        color: black;
+        float: left;
+    }
+    .mainbody{
+        padding: 10px;
+        float: left;
+    }
+    .pictures img {
+    width: 400px; 
+    height: auto; 
+  }
+
+  .tableauPlaceholder {
+    width="560" height="315" 
+}
+
+    </style>
